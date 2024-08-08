@@ -15,11 +15,11 @@ import logoAirbnb from '@/images/logos/airbnb.svg'
 import logoFacebook from '@/images/logos/facebook.svg'
 import logoPlanetaria from '@/images/logos/planetaria.svg'
 import logoStarbucks from '@/images/logos/starbucks.svg'
-import image1 from '@/images/photos/image-1.jpg'
-import image2 from '@/images/photos/image-2.jpg'
-import image3 from '@/images/photos/image-3.jpg'
-import image4 from '@/images/photos/image-4.jpg'
-import image5 from '@/images/photos/image-5.jpg'
+import image1 from '@/images/photos/image-1.avif'
+import image2 from '@/images/photos/image-2.avif'
+import image3 from '@/images/photos/image-3.avif'
+import image4 from '@/images/photos/image-4.jpeg'
+import image5 from '@/images/photos/image-5.jpeg'
 import { getAllArticles } from '@/lib/articles'
 import { formatDate } from '@/lib/formatDate'
 
@@ -281,7 +281,7 @@ export default async function Home() {
               icon={GitHubIcon}
             />
             <SocialLink
-              href="#"
+              href="https://www.linkedin.com/in/ron-synakowski/"
               aria-label="Follow on LinkedIn"
               icon={LinkedInIcon}
             />
