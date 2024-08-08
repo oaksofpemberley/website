@@ -97,7 +97,7 @@
 
 ## 2023-01-02
 
-- Add missing `aria-hidden="true"` to `LinkedInIcon` ([#1397](https://github.com/tailwindlabs/tailwindui-issues/issues/1397))
+- Add missing `aria-hidden="true"` to `Icon` ([#1397](https://github.com/tailwindlabs/tailwindui-issues/issues/1397))
 
 ## 2022-12-12
 
