@@ -7,10 +7,10 @@ export const metadata = {
   title: {
     template: '%s - Ron  Synakowski',
     default:
-      'Ron  Synakowski - Software designer, founder, and amateur astronaut',
+      'Ron  Synakowski - Technologist, Retired Military Acquisition, Staff, and Data Officer.',
   },
   description:
-    'I’m Ron , a software designer and entrepreneur based in New York City. I’m the founder and CEO of Planetaria, where we develop technologies that empower regular people to explore space on their own terms.',
+    'I’m Ron , a connector of people and entrepreneur based out of Oklahoma City. I’m the founder and CEO of Track-Record.co, where we work with technologies that empower commercial, Department of Defense, and Federal organizations explore the art of the possible.',
   alternates: {
     types: {
       'application/rss+xml': `${process.env.NEXT_PUBLIC_SITE_URL}/feed.xml`,

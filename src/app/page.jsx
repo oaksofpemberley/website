@@ -6,10 +6,7 @@ import { Button } from '@/components/Button'
 import { Card } from '@/components/Card'
 import { Container } from '@/components/Container'
 import {
-  GitHubIcon,
-  InstagramIcon,
   LinkedInIcon,
-  XIcon,
 } from '@/components/SocialIcons'
 import logothatDot from '@/images/logos/thatDot.png'
 import logoDatalogz from '@/images/logos/datalogz.png'
@@ -258,23 +255,10 @@ export default async function Home() {
             Thought leader, founder, and amateur astronaut.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Ron, a software designer and entrepreneur based in New York
-            City. I’m the founder and CEO of Planetaria, where we develop
-            technologies that empower regular people to explore space on their
-            own terms.
+            I’m Ron, a connector of people and find fulfillment in helping people succeed. I am based out of Oklahoma City. I’m the founder and CEO of Track-Record.co, where we work with
+            technologies that empower commercial, Department of Defense and Federal organizations to explore the art of the possible.
           </p>
           <div className="mt-6 flex gap-6">
-            <SocialLink href="#" aria-label="Follow on X" icon={XIcon} />
-            <SocialLink
-              href="#"
-              aria-label="Follow on Instagram"
-              icon={InstagramIcon}
-            />
-            <SocialLink
-              href="#"
-              aria-label="Follow on GitHub"
-              icon={GitHubIcon}
-            />
             <SocialLink
               href="https://www.linkedin.com/in/ron-synakowski/"
               aria-label="Follow on LinkedIn"
