@@ -43,10 +43,10 @@ export default function Uses() {
            Established relationships with key decision-makers, influencers, and contracting officers within the target agencies and departments.
           </Tool>
           <Tool title="Technical Acumen">
-           Ability to articulate the company's technology and value proposition in a way that resonates with technical and non-technical stakeholders.
+           Ability to articulate the company’s technology and value proposition in a way that resonates with technical and non-technical stakeholders.
           </Tool>
           <Tool title="Competitive Intelligence">
-           Awareness of the competitive landscape and the ability to differentiate the company's offerings.
+           Awareness of the competitive landscape and the ability to differentiate the company’s offerings.
           </Tool>
         </ToolsSection>
 
@@ -70,10 +70,10 @@ export default function Uses() {
 
         <ToolsSection title="Additional Considerations">
           <Tool title="Security Clearance">
-            Ability to obtain a security clearance, depending on the nature of the company's technology and target customers.
+            Ability to obtain a security clearance, depending on the nature of the company’s technology and target customers.
           </Tool>
           <Tool title="Cultural Fit">
-            Understand and align with DoD & Federal mission and values, while recognizing and adapting to your company's values and mission, as well as a passion for working in a fast-paced, startup environment.
+            Understand and align with DoD and Federal mission and values, while recognizing and adapting to your company’s values and mission, as well as a passion for working in a fast-paced, startup environment.
           </Tool>
         </ToolsSection>
 
