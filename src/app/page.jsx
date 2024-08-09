@@ -11,9 +11,8 @@ import {
   LinkedInIcon,
   XIcon,
 } from '@/components/SocialIcons'
-import logoAirbnb from '@/images/logos/airbnb.svg'
-import logoFacebook from '@/images/logos/facebook.svg'
-import logoPlanetaria from '@/images/logos/planetaria.svg'
+import logothatDot from '@/images/logos/thatDot.png'
+import logoDatalogz from '@/images/logos/datalogz.png'
 import logousaf from '@/images/logos/usaf.jpg'
 import image1 from '@/images/photos/image-1.avif'
 import image2 from '@/images/photos/image-2.avif'
@@ -176,7 +175,7 @@ function Resume() {
     {
       company: 'thatDot',
       title: 'DoD and Federal Lead',
-      logo: logoAirbnb,
+      logo: logothatDot,
       start: '2024',
       end: {
         label: 'Present',
@@ -186,7 +185,7 @@ function Resume() {
     {
       company: 'Datalogz',
       title: 'DoD and Federal Lead',
-      logo: logoFacebook,
+      logo: logoDatalogz,
       start: '2024',
       end: {
         label: 'Present',
