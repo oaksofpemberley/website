@@ -174,9 +174,9 @@ function Role({ role }) {
 function Resume() {
   let resume = [
     {
-      company: 'Planetaria',
-      title: 'CEO',
-      logo: logoPlanetaria,
+      company: 'thatDot',
+      title: 'DoD and Federal Lead',
+      logo: logoAirbnb,
       start: '2024',
       end: {
         label: 'Present',
@@ -184,22 +184,18 @@ function Resume() {
       },
     },
     {
-      company: 'Airbnb',
-      title: 'Product Designer',
-      logo: logoAirbnb,
-      start: '2024',
-      end: '2019',
-    },
-    {
-      company: 'Facebook',
-      title: 'iOS Software Engineer',
+      company: 'Datalogz',
+      title: 'DoD and Federal Lead',
       logo: logoFacebook,
       start: '2024',
-      end: '2014',
+      end: {
+        label: 'Present',
+        dateTime: new Date().getFullYear().toString(),
+      },
     },
     {
-      company: 'usaf',
-      title: 'Shift Supervisor',
+      company: 'USAF',
+      title: 'Computer Engineer, Acqusition, Staff, Data Officer',
       logo: logousaf,
       start: '2004',
       end: '2024',
