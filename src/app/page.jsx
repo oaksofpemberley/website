@@ -255,7 +255,7 @@ export default async function Home() {
             Technologist, Thinker, Doer.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Ron, a computer engineer, former acquisitions, staff and data officer. I find fulfillment in helping people succeed. I’m the founder and CEO of Track-Record.co, an LLC that works with
+            I’m Ron, a technical business management consultant with expertise in helping companies navigate the DoD. As a former computer engineer, acquisitions, staff, budget, congressional, and data officer I find fulfillment in helping see businesses grow and people succeed. I’m the founder and CEO of Track-Record.co, an LLC that works with
             bleeding edge technologies to empower commercial, Department of Defense and Federal organizations to push the boundaries of what is possible.
           </p>
           <div className="mt-6 flex gap-6">
