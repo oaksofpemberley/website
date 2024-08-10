@@ -28,7 +28,7 @@ export const metadata = {
   description: 'go-to-market approach',
 }
 
-export default function Uses() {
+export default function Why() {
   return (
     <SimpleLayout
       title="Qualities"
