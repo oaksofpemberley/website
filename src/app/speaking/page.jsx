@@ -39,14 +39,14 @@ export default function Speaking() {
         <SpeakingSection title="Conferences">
           <Appearance
             href="#"
-            title="In space, no one can watch you stream — until now"
+            title="GovExec"
             description="A technical deep-dive into HelioStream, the real-time streaming library I wrote for transmitting live video back to Earth."
             event="SysConf 2021"
             cta="Watch video"
           />
           <Appearance
             href="#"
-            title="Lessons learned from our first product recall"
+            title="AFTIC 2019: DAF Enterprise Data Strategy"
             description="They say that if you’re not embarassed by your first version, you’re doing it wrong. Well when you’re selling DIY space shuttle kits it turns out it’s a bit more complicated."
             event="Business of Startups 2020"
             cta="Watch video"
