@@ -12,8 +12,8 @@ const projects = [
   {
     name: 'Machine Learning Gate App',
     description:
-      'Creating technology to empower civilians to explore space on their own terms.',
-    link: { href: 'http://planetaria.tech', label: 'planetaria.tech' },
+      'Utilizng machine learning to help Security Forces optimize manpower across Tinker AFB’s gates.',
+    link: { href: 'https://www.tinker.af.mil/News/Article-Display/Article/3703969/tinker-afb-uses-data-analytics-to-improve-gate-wait-times/', label: 'Gate App' },
     logo: logoPlanetaria,
   },
   {
