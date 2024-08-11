@@ -24,18 +24,18 @@ function Tool({ title, href, children }) {
 }
 
 export const metadata = {
-  title: 'Why',
+  title: 'Services',
   description: 'go-to-market approach',
 }
 
 export default function Why() {
   return (
     <SimpleLayout
-      title="Qualities"
+      title="What you get."
       intro="Ensure your company is well-equipped to navigate the complexities of the DoD and Federal market."
     >
       <div className="space-y-20">
-        <ToolsSection title="Experience and Expertise">
+        <ToolsSection title="Strategic Advising">
           <Tool title="Deep Understanding">
             In-depth knowledge of DoD and Federal procurement processes, regulations, and funding cycles.
           </Tool>
@@ -50,8 +50,8 @@ export default function Why() {
           </Tool>
         </ToolsSection>
 
-        <ToolsSection title="Skills and Abilities">
-          <Tool title="Strategic Thinking">
+        <ToolsSection title="Execution">
+          <Tool title="Strategic Approach">
            Ability to develop and execute a comprehensive go-to-market strategy, including target customer identification, sales pipeline development, and marketing/outreach initiatives.
           </Tool>
           <Tool title="Tactical Sales Execution">
