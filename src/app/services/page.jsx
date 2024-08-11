@@ -70,7 +70,7 @@ export default function Why() {
 
         <ToolsSection title="Additional Considerations">
           <Tool title="Security Clearance">
-            Ability to obtain a security clearance, depending on the nature of the company’s technology and target customers.
+            Ability to obtain a security clearance, to support your company’s technology and target customers.
           </Tool>
           <Tool title="Cultural Fit">
             Understand and align with DoD and Federal mission and values, while recognizing and adapting to your company’s values and mission, as well as a passion for working in a fast-paced, startup environment.
