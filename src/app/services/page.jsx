@@ -31,7 +31,7 @@ export const metadata = {
 export default function Why() {
   return (
     <SimpleLayout
-      title="What you get."
+      title="Helping Early Stage Companies Grow and Thrive"
       intro="Ensure your company is well-equipped to navigate the complexities of the DoD and Federal market."
     >
       <div className="space-y-20">
