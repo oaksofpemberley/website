@@ -252,7 +252,7 @@ export default async function Home() {
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-            Technologist, Thinker, Doer.
+            Technologist, Thinker, Doer
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             I’m Ron, the founder of Track-Record.co, an LLC that works with bleeding edge technology companies to empower commercial, Department of Defense and Federal organizations to push the boundaries of what is possible. As a former Air Force officer I have expertise in navigating the DoD, with experience as a computer engineer, acquisitions, staff, budget, congressional, and data officer. I find it rewarding and fulfilling to help others succeed and grow their businesses. 
