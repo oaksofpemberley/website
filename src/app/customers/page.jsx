@@ -66,7 +66,7 @@ export function Testimonial_Example() {
               </svg>
               <blockquote className="text-xl font-semibold leading-8 text-white sm:text-2xl sm:leading-9">
                 <p>
-                Ron exceeded all expectations in his ability to help commercialize our technology within the DoD. His knack for evaluating tech and pinpointing its ideal end users is exceptional. Partnering with him over the past few months has been one of the smartest moves we've made as a company.
+                Ron exceeded all expectations in his ability to help commercialize our technology within the DoD. His knack for evaluating tech and pinpointing its ideal end users is exceptional. Partnering with him over the past few months has been one of the smartest moves we’ve made as a company.
                 </p>
               </blockquote>
               <figcaption className="mt-8 text-base">
