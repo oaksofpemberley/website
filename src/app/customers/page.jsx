@@ -1,14 +1,7 @@
 import { Card } from '@/components/Card'
 import { Section } from '@/components/Section'
 import { SimpleLayout } from '@/components/SimpleLayout'
-import Image from 'next/image'
-/*
-<img
-                alt="Logan Havern"
-                src= {Logan}
-                className="absolute inset-0 h-full w-full rounded-2xl bg-gray-800 object-cover shadow-2xl"
-              />
-              */
+
 
 function ToolsSection({ children, ...props }) {
   return (
@@ -82,12 +75,12 @@ export function Testimonial_Example() {
 }
 
 const featuredTestimonial = {
-  body: 'Integer id nunc sit semper purus. Bibendum at lacus ut arcu blandit montes vitae auctor libero. Hac condimentum dignissim nibh vulputate ut nunc. Amet nibh orci mi venenatis blandit vel et proin. Non hendrerit in vel ac diam.',
+  body: 'Ron is hands-down the best staff officer I have ever had the pleasure of working with. Daily life in the Air and Space Forces’ first Chief Data Office was fast-paced, entrepreneurial, and highly political. Everything we built had never been done before at that scale. Using the Gartner Hype Cycle, Ron led the Air Force through the Trough of Dissolutionment into consolidation and growth, earning respect and much needed funding through building an encompassing vision.',
   author: {
-    name: 'Eileen Vidrine',
-    handle: 'Former DAF Chief Data and AI Officer',
+    name: 'Charles Destefani',
+    handle: 'HumanIT Solutions',
     imageUrl:
-      'https://media.defense.gov/2019/Jun/27/2002151034/1200/1200/0/190627-F-AF000-1344.JPG',
+      'https://media.licdn.com/dms/image/v2/C4D03AQEwdW0hm-uh7A/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1615322025115?e=1729123200&v=beta&t=X9PNDnzKuh8orFu9NaCm3MMjai5a_pKNk3LHB5i62EY',
     //logoUrl: 'https://tailwindui.com/img/logos/savvycal-logo-gray-900.svg',
   },
 }
@@ -157,6 +150,7 @@ const testimonials = [
   ],
   [
     [
+      /*
       {
         body: 'Ron is hands-down the best staff officer I have ever had the pleasure of working with. Daily life in the Air and Space Forces’ first Chief Data Office was fast-paced, entrepreneurial, and highly political. Everything we built had never been done before at that scale. Using the Gartner Hype Cycle, Ron led the Air Force through the Trough of Dissolutionment into consolidation and growth, earning respect and much needed funding through building an encompassing vision',
         author: {
@@ -166,6 +160,7 @@ const testimonials = [
             'https://media.licdn.com/dms/image/v2/C4D03AQEwdW0hm-uh7A/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1615322025115?e=1729123200&v=beta&t=X9PNDnzKuh8orFu9NaCm3MMjai5a_pKNk3LHB5i62EY',
         },
     },
+    */
     /*
     {
       body: 'Voluptas quos itaque ipsam in voluptatem est. Iste eos blanditiis repudiandae. Earum deserunt enim molestiae ipsum perferendis recusandae saepe corrupti.',
