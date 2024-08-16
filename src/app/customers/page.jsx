@@ -1,6 +1,14 @@
 import { Card } from '@/components/Card'
 import { Section } from '@/components/Section'
 import { SimpleLayout } from '@/components/SimpleLayout'
+import Image from 'next/image'
+/*
+<img
+                alt="Logan Havern"
+                src= {Logan}
+                className="absolute inset-0 h-full w-full rounded-2xl bg-gray-800 object-cover shadow-2xl"
+              />
+              */
 
 function ToolsSection({ children, ...props }) {
   return (
@@ -35,9 +43,9 @@ export function Testimonial_Example() {
         <div className="mx-auto flex max-w-7xl flex-col items-center gap-x-8 gap-y-10 px-6 sm:gap-y-8 lg:px-8 xl:flex-row xl:items-stretch">
           <div className="-mt-8 w-full max-w-2xl xl:-mb-8 xl:w-96 xl:flex-none">
             <div className="relative aspect-[2/1] h-full md:-mx-8 xl:mx-0 xl:aspect-auto">
-              <img
+            <img
                 alt=""
-                src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2102&q=80"
+                src="https://cdoiq2024.org/wp-content/uploads/2024/01/Logan-Havern.jpg"
                 className="absolute inset-0 h-full w-full rounded-2xl bg-gray-800 object-cover shadow-2xl"
               />
             </div>
@@ -58,14 +66,12 @@ export function Testimonial_Example() {
               </svg>
               <blockquote className="text-xl font-semibold leading-8 text-white sm:text-2xl sm:leading-9">
                 <p>
-                  Gravida quam mi erat tortor neque molestie. Auctor aliquet at porttitor a enim nunc suscipit tincidunt
-                  nunc. Et non lorem tortor posuere. Nunc eu scelerisque interdum eget tellus non nibh scelerisque
-                  bibendum.
+                Ron exceeded all expectations in his ability to help commercialize our technology within the DoD. His knack for evaluating tech and pinpointing its ideal end users is exceptional. Partnering with him over the past few months has been one of the smartest moves we've made as a company.
                 </p>
               </blockquote>
               <figcaption className="mt-8 text-base">
-                <div className="font-semibold text-white">Judith Black</div>
-                <div className="mt-1 text-gray-400">CEO of Workcation</div>
+                <div className="font-semibold text-white">Logan Havern</div>
+                <div className="mt-1 text-gray-400">CEO of Datalogz</div>
               </figcaption>
             </figure>
           </div>
@@ -78,61 +84,129 @@ export function Testimonial_Example() {
 const featuredTestimonial = {
   body: 'Integer id nunc sit semper purus. Bibendum at lacus ut arcu blandit montes vitae auctor libero. Hac condimentum dignissim nibh vulputate ut nunc. Amet nibh orci mi venenatis blandit vel et proin. Non hendrerit in vel ac diam.',
   author: {
-    name: 'Brenna Goyette',
-    handle: 'brennagoyette',
+    name: 'Eileen Vidrine',
+    handle: 'Former DAF Chief Data and AI Officer',
     imageUrl:
-      'https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=1024&h=1024&q=80',
-    logoUrl: 'https://tailwindui.com/img/logos/savvycal-logo-gray-900.svg',
+      'https://media.defense.gov/2019/Jun/27/2002151034/1200/1200/0/190627-F-AF000-1344.JPG',
+    //logoUrl: 'https://tailwindui.com/img/logos/savvycal-logo-gray-900.svg',
   },
 }
+ 
 const testimonials = [
   [
     [
-      {
+      /*{
         body: 'Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil. Aut enim doloremque et ipsam.',
         author: {
-          name: 'Leslie Alexander',
-          handle: 'lesliealexander',
+          name: 'Rick Moore',
+          handle: 'rick_moore',
           imageUrl:
-            'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+            'https://media.licdn.com/dms/image/D4E03AQE9zAWA-GhbEA/profile-displayphoto-shrink_100_100/0/1705853016145?e=1729123200&v=beta&t=lGPVcI8jv7b9EOAqQAwn6GYozcJwyFOwdNubF6t09dI',
         },
       },
       // More testimonials...
-    ],
-    [
       {
         body: 'Aut reprehenderit voluptatem eum asperiores beatae id. Iure molestiae ipsam ut officia rem nulla blanditiis.',
         author: {
-          name: 'Lindsay Walton',
-          handle: 'lindsaywalton',
+          name: 'Dan Madden',
+          handle: 'Squadra',
+          imageUrl:
+            'https://media.licdn.com/dms/image/C5603AQF8ubJiY5FBDg/profile-displayphoto-shrink_100_100/0/1653505993792?e=1729123200&v=beta&t=9QwSr7aeN0tLYRTKz__QwMQi_y9FIbP-nAasjQNMUAs',
+        },
+      },
+      {
+        body: 'Aut reprehenderit voluptatem eum asperiores beatae id. Iure molestiae ipsam ut officia rem nulla blanditiis.',
+        author: {
+          name: 'Richard Lombardi',
+          handle: 'richard_lombardi',
           imageUrl:
             'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
         },
+      },*/
+      {
+        body: 'Ron Synakowki is a rare blend of technical and strategic acumen and good old fashioned GSD (get things done).',
+        author: {
+          name: 'Dr. Angela Giddings',
+          handle: 'OSD CAPE',
+          imageUrl:
+            'https://media.licdn.com/dms/image/D4E03AQE5nYHRLIT-yA/profile-displayphoto-shrink_100_100/0/1707532812122?e=1729123200&v=beta&t=amEGoZaHvAe9b7Fnxr1QWPn_qz1JyFwQ0g5dlYoTjj8',
+        },
       },
+    ],
+    [
+      {
+        body: 'Ron is one of the most influential leaders I have had the privilege to work with.',
+        author: {
+          name: 'Callie King',
+          handle: 'Dept. of State',
+          imageUrl:
+            'https://media.licdn.com/dms/image/v2/C4D03AQE4XeI7rvchRA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1636077323129?e=1729123200&v=beta&t=_htt8PXyP66GFeF-waR0d1c-xbpqEvTK6AcnAzQkGhk',
+        },
+      },
+      /*{
+        body: 'Aut reprehenderit voluptatem eum asperiores beatae id. Iure molestiae ipsam ut officia rem nulla blanditiis.',
+        author: {
+          name: 'Brian Shealey',
+          handle: 'VP Rohirrim',
+          imageUrl:
+            'https://media.licdn.com/dms/image/C5103AQGoyfvOuFwFVQ/profile-displayphoto-shrink_100_100/0/1516295430526?e=1729123200&v=beta&t=ePFCnxRQ9zToYrFM52gHptKPQOYUVUSXZj57UWlwQSI',
+        },
+      },*/
       // More testimonials...
     ],
   ],
   [
     [
       {
-        body: 'Voluptas quos itaque ipsam in voluptatem est. Iste eos blanditiis repudiandae. Earum deserunt enim molestiae ipsum perferendis recusandae saepe corrupti.',
+        body: 'Ron is hands-down the best staff officer I have ever had the pleasure of working with. Daily life in the Air and Space Forces’ first Chief Data Office was fast-paced, entrepreneurial, and highly political. Everything we built had never been done before at that scale. Using the Gartner Hype Cycle, Ron led the Air Force through the Trough of Dissolutionment into consolidation and growth, earning respect and much needed funding through building an encompassing vision',
         author: {
-          name: 'Tom Cook',
-          handle: 'tomcook',
+          name: 'Charles Destefani',
+          handle: 'HumanIT Solutions',
           imageUrl:
-            'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+            'https://media.licdn.com/dms/image/v2/C4D03AQEwdW0hm-uh7A/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1615322025115?e=1729123200&v=beta&t=X9PNDnzKuh8orFu9NaCm3MMjai5a_pKNk3LHB5i62EY',
         },
+    },
+    /*
+    {
+      body: 'Voluptas quos itaque ipsam in voluptatem est. Iste eos blanditiis repudiandae. Earum deserunt enim molestiae ipsum perferendis recusandae saepe corrupti.',
+      author: {
+        name: 'Howard Levenson',
+        handle: 'Former General Manager-Area Vice President Databricks',
+        imageUrl:
+          'https://media.licdn.com/dms/image/C5603AQFu4i-UE_sfkQ/profile-displayphoto-shrink_100_100/0/1633137829623?e=1729123200&v=beta&t=ktPLcFl5PqmE6zptde6ddGttIqLGW3xhdG0SOO4Wh6E',
       },
+  },
+  */
       // More testimonials...
     ],
     [
+      /*
       {
-        body: 'Molestias ea earum quos nostrum doloremque sed. Quaerat quasi aut velit incidunt excepturi rerum voluptatem minus harum.',
+        body: 'Aut reprehenderit voluptatem eum asperiores beatae id. Iure molestiae ipsam ut officia rem nulla blanditiis.',
         author: {
-          name: 'Leonard Krasner',
-          handle: 'leonardkrasner',
+          name: 'John Olson',
+          handle: 'Executive Leader: CEO | Co-Founder | Chairman | General',
           imageUrl:
-            'https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+            'https://media.licdn.com/dms/image/D5603AQFQi9HUG_yYRQ/profile-displayphoto-shrink_100_100/0/1705405525903?e=1729123200&v=beta&t=8blsEyS7P6n8Uv0YG8Qt2x3y94zTTGX2QV0RJSDKH0k',
+        },
+      },
+      */
+      {
+        body: '...extraordinary ability to tackle complex, enterprise-level data and organizational challenges...adept at turning problems into opportunities for growth and innovation.',
+        author: {
+          name: 'Kyle Gearen',
+          handle: 'USCYBERCOM',
+          imageUrl:
+            'https://media.licdn.com/dms/image/D4E03AQEVHpLjGf22Qg/profile-displayphoto-shrink_100_100/0/1687028728566?e=1729123200&v=beta&t=_10qJNZp9hHYUeOt7t1ScNfYfafeEcVhzLMumnxNBrw',
+        },
+      },
+      {
+        body: 'Our team grew from being a small start-up like office to a mature, well-established office with significant responsibilities which included but was not limited to DAF-wide data capability governance, development, and maintenance (a mountain of a task).',
+        author: {
+          name: 'Jay Roberts',
+          handle: 'Explainable AI (XAI) Researcher',
+          imageUrl:
+            'https://media.licdn.com/dms/image/C4E03AQFHUfPxIwx61g/profile-displayphoto-shrink_100_100/0/1623170446173?e=1729123200&v=beta&t=6hb06ZQ0EkL0sar43KRqOrMn6B124Jv0hq8f53Yc_ps',
         },
       },
       // More testimonials...
@@ -175,7 +249,7 @@ export function Multiple_Tile_Feedback() {
         <div className="mx-auto max-w-xl text-center">
           <h2 className="text-lg font-semibold leading-8 tracking-tight text-indigo-600">Testimonials</h2>
           <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            We have worked with thousands of amazing people
+            I have worked with thousands of amazing people
           </p>
         </div>
         <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 grid-rows-1 gap-8 text-sm leading-6 text-gray-900 sm:mt-20 sm:grid-cols-2 xl:mx-0 xl:max-w-none xl:grid-flow-col xl:grid-cols-4">
@@ -191,7 +265,7 @@ export function Multiple_Tile_Feedback() {
               />
               <div className="flex-auto">
                 <div className="font-semibold">{featuredTestimonial.author.name}</div>
-                <div className="text-gray-600">{`@${featuredTestimonial.author.handle}`}</div>
+                <div className="text-gray-600">{`${featuredTestimonial.author.handle}`}</div>
               </div>
               <img alt="" src={featuredTestimonial.author.logoUrl} className="h-10 w-auto flex-none" />
             </figcaption>
@@ -221,7 +295,7 @@ export function Multiple_Tile_Feedback() {
                         <img alt="" src={testimonial.author.imageUrl} className="h-10 w-10 rounded-full bg-gray-50" />
                         <div>
                           <div className="font-semibold">{testimonial.author.name}</div>
-                          <div className="text-gray-600">{`@${testimonial.author.handle}`}</div>
+                          <div className="text-gray-600">{`${testimonial.author.handle}`}</div>
                         </div>
                       </figcaption>
                     </figure>
@@ -240,8 +314,8 @@ export function Multiple_Tile_Feedback() {
 export default function Customers() {
   return (
     <SimpleLayout
-      title="Customer recommendations."
-      intro="Feedback from Customers and others."
+      title="What customers have to say."
+      intro="Hear feedback from clients, VC leadership, industry partners, and former colleagues."
     >
       <div className="space-y-20">
         <Testimonial_Example />
