@@ -12,15 +12,15 @@ const projects = [
   {
     name: 'Machine Learning Gate App',
     description:
-      'Utilizng machine learning to help Security Forces optimize manpower across Tinker AFB’s gates.',
+      'Mmachine learning web-app to help Security Forces optimize manpower across Tinker AFB’s gates.',
     link: { href: 'https://www.tinker.af.mil/News/Article-Display/Article/3703969/tinker-afb-uses-data-analytics-to-improve-gate-wait-times/', label: 'Gate App' },
     logo: logoPlanetaria,
   },
   {
     name: 'Data Fabric',
     description:
-      'Creating technology to empower civilians to explore space on their own terms.',
-    link: { href: 'http://planetaria.tech', label: 'planetaria.tech' },
+      'Deliver integrated and enriched data anywhere, anytime, in the ways needed.',
+    link: { href: 'https://www.safcn.af.mil/Portals/64/Documents/AI/Data%20Fabric.pdf?ver=_Ghdc-s3X3CRjp1mDRx1dQ%3D%3D', label: 'DAF.Data.Fabric' },
     logo: logoPlanetaria,
   },
   {
@@ -66,14 +66,14 @@ function LinkIcon(props) {
 
 export const metadata = {
   title: 'Projects',
-  description: 'Things I’ve made trying to put my dent in the universe.',
+  description: 'Projects I’ve had the privelge to be part of.',
 }
 
 export default function Projects() {
   return (
     <SimpleLayout
-      title="Things I’ve made trying to put my dent in the universe."
-      intro="I’ve worked on tons of little projects over the years but these are the ones that I’m most proud of. Many of them are open-source, so if you see something that piques your interest, check out the code and contribute if you have ideas for how it can be improved."
+      title="Projects I’ve had the privelge to be part of."
+      intro="I’ve worked on tons of little projects over the years but these are the ones that I’m most proud of. Each one represents numerous team members contributions to make them a success."
     >
       <ul
         role="list"
