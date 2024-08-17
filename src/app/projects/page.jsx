@@ -19,36 +19,36 @@ const projects = [
   {
     name: 'Data Fabric',
     description:
-      'Deliver integrated and enriched data anywhere, anytime, in the ways needed.',
+      'Deliver integrated and enriched data anywhere, anytime, in the ways needed for the entire Department of the Air Force and Space Force.',
     link: { href: 'https://www.safcn.af.mil/Portals/64/Documents/AI/Data%20Fabric.pdf?ver=_Ghdc-s3X3CRjp1mDRx1dQ%3D%3D', label: 'DAF.Data.Fabric' },
     logo: logoPlanetaria,
   },
   {
     name: 'Budget Sequestration',
     description:
-      'High performance web animation library, hand-written in optimized WASM.',
-    link: { href: '#', label: 'github.com' },
+      'With a particularly unclear budget that year in 2014 we decided to create two budgets for the Air Force! President’s Budget and a Sequestered budget.',
+    link: { href: 'https://www.crfb.org/understanding-sequester#:~:text=From%202014%20through%202023%2C%20the,savings%20come%20from%20discretionary%20appropriations.', label: '$160B' },
     logo: logoAnimaginary,
   },
   {
     name: 'Fukishima',
     description:
-      'Real-time video streaming library, optimized for interstellar transmission.',
-    link: { href: '#', label: 'github.com' },
+      'Three meetings a day with USPACOM leadership and 24/7 Operations as we tried to provide data to inform the decision to remove troops and their families from Yokota AB to avoid the nuclear plume.',
+    link: { href: 'https://www.airandspaceforces.com/weapons-platforms/wc-135/', label: 'WC-135' },
     logo: logoHelioStream,
   },
   {
     name: 'Global Maximo MRP Implementation',
     description:
-      'The operating system that powers our Planetaria space shuttles.',
-    link: { href: '#', label: 'github.com' },
+      'Following two previous team’s attempts to implement, we stepped back, documented our processes using value stream maps and cross-function collaboration before succesfully implementing!',
+    link: { href: '#', label: 'IBM Maximo MRP 2006' },
     logo: logoCosmos,
   },
   {
     name: 'National Defense Fellows Forum',
     description:
-      'The schematics for the first rocket I designed that successfully made it to orbit.',
-    link: { href: '#', label: 'github.com' },
+      'With an influx of 40 brand new Lieutenants we partnerered with Tuft’s, Harvard, and MIT Defense Fellowes for a collective mentoring forum.',
+    link: { href: '#', label: 'Hanscom 2005' },
     logo: logoOpenShuttle,
   },
 ]
@@ -73,7 +73,7 @@ export default function Projects() {
   return (
     <SimpleLayout
       title="Projects I’ve had the privelge to be part of."
-      intro="I’ve worked on tons of little projects over the years but these are the ones that I’m most proud of. Each one represents numerous team members contributions to make them a success."
+      intro="I’ve worked on tons of little projects over the years but these are the ones that I’m most proud of. Each one represents numerous team members’ contributions to make them a success."
     >
       <ul
         role="list"
