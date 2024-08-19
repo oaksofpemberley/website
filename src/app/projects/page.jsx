@@ -12,7 +12,7 @@ const projects = [
   {
     name: 'Machine Learning Gate App',
     description:
-      'Mmachine learning web-app to help Security Forces optimize manpower across Tinker AFB’s gates.',
+      'Machine learning web-app to help Security Forces optimize manpower across Tinker AFB’s gates.',
     link: { href: 'https://www.tinker.af.mil/News/Article-Display/Article/3703969/tinker-afb-uses-data-analytics-to-improve-gate-wait-times/', label: 'Gate App' },
     logo: logoPlanetaria,
   },
