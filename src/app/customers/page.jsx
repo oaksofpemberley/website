@@ -133,7 +133,7 @@ const testimonials = [
           name: 'Callie King',
           handle: 'Dept. of State',
           imageUrl:
-            'https://media.licdn.com/dms/image/v2/C4D03AQE4XeI7rvchRA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1636077323129?e=1729123200&v=beta&t=_htt8PXyP66GFeF-waR0d1c-xbpqEvTK6AcnAzQkGhk',
+          'https://media.licdn.com/dms/image/v2/C4D03AQE4XeI7rvchRA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1636077323129?e=1744848000&v=beta&t=nFNiZRLagPpky9mz0tf7ar2oOQxWFWPKQsDz0_m3RWY',
         },
       },
       /*{
