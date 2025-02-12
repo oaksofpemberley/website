@@ -10,6 +10,7 @@ import {
 } from '@/components/SocialIcons'
 import logothatDot from '@/images/logos/thatDot.png'
 import logoDatalogz from '@/images/logos/datalogz.png'
+import logoMindsDB from '@/images/logos/mindsdb_logo'
 import logousaf from '@/images/logos/usaf.jpg'
 import image1 from '@/images/photos/image-1.avif'
 import image2 from '@/images/photos/image-2.avif'
@@ -170,8 +171,18 @@ function Role({ role }) {
 function Resume() {
   let resume = [
     {
+      company: 'MindsDB',
+      title: 'Strategic Advisor',
+      logo: logoMindsDB,
+      start: '2024',
+      end: {
+        label: 'Present',
+        dateTime: new Date().getFullYear().toString(),
+      },
+    },
+    {
       company: 'thatDot',
-      title: 'DoD and Federal Lead',
+      title: 'DoD and Federal',
       logo: logothatDot,
       start: '2024',
       end: {
@@ -181,7 +192,7 @@ function Resume() {
     },
     {
       company: 'Datalogz',
-      title: 'DoD and Federal Lead',
+      title: 'Head of DoD and Federal Partnerships',
       logo: logoDatalogz,
       start: '2024',
       end: {
