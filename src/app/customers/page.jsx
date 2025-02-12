@@ -122,7 +122,7 @@ const testimonials = [
           name: 'Dr. Angela Giddings',
           handle: 'OSD CAPE',
           imageUrl:
-            'https://media.licdn.com/dms/image/D4E03AQE5nYHRLIT-yA/profile-displayphoto-shrink_100_100/0/1707532812122?e=1729123200&v=beta&t=amEGoZaHvAe9b7Fnxr1QWPn_qz1JyFwQ0g5dlYoTjj8',
+            'https://media.licdn.com/dms/image/v2/D4E03AQE5nYHRLIT-yA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1707532812122?e=1744848000&v=beta&t=WytOhEmPJ21uhhqomg5DmiS0-NJTBI5YRcJ30ER35N0',
         },
       },
     ],
@@ -192,7 +192,7 @@ const testimonials = [
           name: 'Kyle Gearen',
           handle: 'USCYBERCOM',
           imageUrl:
-            'https://media.licdn.com/dms/image/D4E03AQEVHpLjGf22Qg/profile-displayphoto-shrink_100_100/0/1687028728566?e=1729123200&v=beta&t=_10qJNZp9hHYUeOt7t1ScNfYfafeEcVhzLMumnxNBrw',
+            'https://media.licdn.com/dms/image/v2/D4E03AQEVHpLjGf22Qg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1687028728567?e=1744848000&v=beta&t=hLYkrfGCurGZj23SH2l-0RkvFEFbpk1I4sJVZVaoJbU',
         },
       },
       {
@@ -201,7 +201,7 @@ const testimonials = [
           name: 'Jay Roberts',
           handle: 'Explainable AI (XAI) Researcher',
           imageUrl:
-            'https://media.licdn.com/dms/image/C4E03AQFHUfPxIwx61g/profile-displayphoto-shrink_100_100/0/1623170446173?e=1729123200&v=beta&t=6hb06ZQ0EkL0sar43KRqOrMn6B124Jv0hq8f53Yc_ps',
+            'https://media.licdn.com/dms/image/v2/C4E03AQFHUfPxIwx61g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1623170446173?e=1744848000&v=beta&t=jjytlNRMq8rpoPEj7pmH_ZEVT3PvNgDPl2gvACLcn8c',
         },
       },
       // More testimonials...
