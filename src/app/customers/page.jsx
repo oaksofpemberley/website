@@ -80,7 +80,7 @@ const featuredTestimonial = {
     name: 'Charles Destefani',
     handle: 'HumanIT Solutions',
     imageUrl:
-      'https://media.licdn.com/dms/image/v2/C4D03AQEwdW0hm-uh7A/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1615322025115?e=1729123200&v=beta&t=X9PNDnzKuh8orFu9NaCm3MMjai5a_pKNk3LHB5i62EY',
+    'https://media.licdn.com/dms/image/v2/C4D03AQEwdW0hm-uh7A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1615322025115?e=1744848000&v=beta&t=gLJmw6IPLzd0VZtZtAlO-Phl8BhKQrZ72aobUACcfOM',
     //logoUrl: 'https://tailwindui.com/img/logos/savvycal-logo-gray-900.svg',
   },
 }
