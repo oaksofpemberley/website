@@ -10,7 +10,7 @@ import {
 } from '@/components/SocialIcons'
 import logothatDot from '@/images/logos/thatDot.png'
 import logoDatalogz from '@/images/logos/datalogz.png'
-import logoMindsDB from '@/images/logos/mindsdb_logo'
+import logoMindsDB from '@/images/logos/mindsdb.jpeg'
 import logousaf from '@/images/logos/usaf.jpg'
 import image1 from '@/images/photos/image-1.avif'
 import image2 from '@/images/photos/image-2.avif'
