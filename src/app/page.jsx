@@ -186,7 +186,7 @@ function Resume() {
       logo: logothatDot,
       start: '2024',
       end: {
-        label: 'Present',
+        label: '2025',
         dateTime: new Date().getFullYear().toString(),
       },
     },

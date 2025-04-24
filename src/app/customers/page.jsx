@@ -80,7 +80,7 @@ const featuredTestimonial = {
     name: 'Charles Destefani',
     handle: 'HumanIT Solutions',
     imageUrl:
-    'https://media.licdn.com/dms/image/v2/C4D03AQEwdW0hm-uh7A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1615322025115?e=1744848000&v=beta&t=gLJmw6IPLzd0VZtZtAlO-Phl8BhKQrZ72aobUACcfOM',
+    'https://media.licdn.com/dms/image/v2/C4D03AQEwdW0hm-uh7A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1615322025115?e=1750896000&v=beta&t=i4yH6_H8Isg_TgKvXWrXCyOD3UD0Lz2UqEelxkMcI_M',
     //logoUrl: 'https://tailwindui.com/img/logos/savvycal-logo-gray-900.svg',
   },
 }
@@ -122,7 +122,7 @@ const testimonials = [
           name: 'Dr. Angela Giddings',
           handle: 'OSD CAPE',
           imageUrl:
-            'https://media.licdn.com/dms/image/v2/D4E03AQE5nYHRLIT-yA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1707532812122?e=1744848000&v=beta&t=WytOhEmPJ21uhhqomg5DmiS0-NJTBI5YRcJ30ER35N0',
+            'https://media.licdn.com/dms/image/v2/D4E03AQE5nYHRLIT-yA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1707532812122?e=1750896000&v=beta&t=D6Jc0ILedP5wEv-j-AEi56nB9e3ZFuQyGc93t-mueEo',
         },
       },
     ],
@@ -192,7 +192,7 @@ const testimonials = [
           name: 'Kyle Gearen',
           handle: 'USCYBERCOM',
           imageUrl:
-            'https://media.licdn.com/dms/image/v2/D4E03AQEVHpLjGf22Qg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1687028728567?e=1744848000&v=beta&t=hLYkrfGCurGZj23SH2l-0RkvFEFbpk1I4sJVZVaoJbU',
+            'https://media.licdn.com/dms/image/v2/D4E03AQEVHpLjGf22Qg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1687028728567?e=1750896000&v=beta&t=Mu7s2j2ahfSWoZLNEa_3jQJKX0TO-MVE72z3JfOlM48',
         },
       },
       {
@@ -201,7 +201,7 @@ const testimonials = [
           name: 'Jay Roberts',
           handle: 'Explainable AI (XAI) Researcher',
           imageUrl:
-            'https://media.licdn.com/dms/image/v2/C4E03AQFHUfPxIwx61g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1623170446173?e=1744848000&v=beta&t=jjytlNRMq8rpoPEj7pmH_ZEVT3PvNgDPl2gvACLcn8c',
+            'https://media.licdn.com/dms/image/v2/C4E03AQFHUfPxIwx61g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1623170446173?e=1750896000&v=beta&t=cjesgIV7YQr6GjaInCMNrL2purawG28In-AhQUUbxiM',
         },
       },
       // More testimonials...
